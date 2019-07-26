@@ -10,7 +10,7 @@ class firstWindow(QMainWindow):
         self.status=self.statusBar()
         self.status.showMessage('只存在5秒钟',5000)
 
-if __name__ == '__main__':
+if __name__ == '__main__':   #注意是__main__
     app=QApplication(sys.argv)
     mainWindow = firstWindow()
     mainWindow.show()
