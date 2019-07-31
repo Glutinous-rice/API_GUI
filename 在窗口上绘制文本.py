@@ -32,7 +32,7 @@ class drawTextDemo (QWidget):
         #新建一个
         painter=QPainter(self)
         painter.begin(self)
-        
+
         painter.setPen(QColor(150,40,23))
         painter.setFont(QFont("SimSun",25))
         painter.drawText(event.rect(),Qt.AlignCenter,self.text)

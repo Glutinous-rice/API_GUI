@@ -81,6 +81,10 @@ class QFileDialogDemo (QWidget):
                 #设置TextEdit的内容
                 self.contents.setText(data)
         print(filenames[0])
+
+
+
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     main = QFileDialogDemo()
