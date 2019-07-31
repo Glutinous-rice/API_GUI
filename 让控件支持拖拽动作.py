@@ -49,7 +49,7 @@ class  DrapDropDemo(QWidget):
         lineEdit.setDragEnabled(True) #让lineEdit可以拖动
         #创建一个重新定义过的下拉列表
         combo=MyComboBox()
-        #将两个控件添加到表单布局里
+        #将两个控件添加到表单布局
         formLayout.addRow(lineEdit,combo)
         self.setLayout(formLayout)
 
